@@ -28,7 +28,7 @@ img = img.flatten()
 
 predict = model.predict([img])
 str_predict = str(predict[0])
-# print(str_predict)
+print(str_predict)
 
 if str_predict == 'locking':
     import discord
@@ -37,7 +37,7 @@ if str_predict == 'locking':
     d = str(now.strftime('%Y/%m/%d %H:%M:%S'))
 
     intents = discord.Intents.all()
-    bot_token = 'MTE5ODYzODI0MzgxODc2NjQzOQ.Gkmbyo.9ws85UtXmVwxXn3OiKMygw6pqRzdzMya9KsXwc'
+    bot_token = 'token_of_discord_bot'
     channel_id = 1198639495306817659
     client = discord.Client(intents=intents)
 
