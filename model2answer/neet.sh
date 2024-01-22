@@ -1,5 +1,6 @@
 #!/bin/sh
 while true
 do
-  sh main.sh
+  (sh main.sh &)
+  sleep 4
 done

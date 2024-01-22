@@ -47,4 +47,4 @@ print('model.score')
 print(model.score(X_train, y_train))
 
 # 作成されたモデルを保存
-pickle.dump(model, open('model.sav', 'wb'))
+pickle.dump(model, open('../model.sav', 'wb'))

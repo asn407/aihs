@@ -15,7 +15,7 @@ import pickle
 
 # モデルのインポート
 print('importing the model...')
-model = pickle.load(open('model.sav', 'rb'))
+model = pickle.load(open('../model.sav', 'rb'))
 
 # 測定開始
 print('please wait for a moment...')
